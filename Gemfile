@@ -3,9 +3,21 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 hyperstack_version = '= 1.0.alpha1.4'
 
-gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
+# gem "activesupport"
+# gem "actionpack"
+# gem "actionview"
+# gem "activemodel"
+# gem "activerecord"
+# gem "actionmailer"
+# gem "activejob"
+# gem "actioncable"
+# gem "activestorage"
+# gem "actionmailbox"
+# gem "actiontext"
+# gem "railties"
+# gem "sprockets-rails"
+
 gem 'puma', '~> 3.11'
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'webpacker'
 
 gem 'hyper-component', hyperstack_version
@@ -19,7 +31,7 @@ gem 'react-rails', '>= 2.4.0', '< 2.5.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'pry-rails'
+  gem 'pry'
 end
 
 group :development do

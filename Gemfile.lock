@@ -173,8 +173,6 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    pry-rails (0.3.9)
-      pry (>= 0.10.4)
     public_suffix (3.0.3)
     puma (3.12.1)
     rack (2.0.6)
@@ -278,12 +276,10 @@ DEPENDENCIES
   hyperstack-config (= 1.0.alpha1.4)
   opal-browser (~> 0.2.0)
   opal-rails (~> 0.9.4)
-  pry-rails
+  pry
   puma (~> 3.11)
-  rails (~> 5.2.2, >= 5.2.2.1)
   react-rails (>= 2.4.0, < 2.5.0)
   selenium-webdriver
-  tzinfo-data
   webpacker
 
 BUNDLED WITH
