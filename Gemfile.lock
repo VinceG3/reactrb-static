@@ -42,10 +42,6 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
-    archive-zip (0.12.0)
-      io-like (~> 0.3.0)
     arel (9.0.0)
     ast (2.4.0)
     babel-source (5.8.35)
@@ -54,19 +50,6 @@ GEM
       execjs (~> 2.0)
     builder (3.2.3)
     byebug (11.0.1)
-    capybara (3.15.0)
-      addressable
-      mini_mime (>= 0.1.3)
-      nokogiri (~> 1.8)
-      rack (>= 1.6.0)
-      rack-test (>= 0.6.3)
-      regexp_parser (~> 1.2)
-      xpath (~> 3.2)
-    childprocess (0.9.0)
-      ffi (~> 1.0, >= 1.0.11)
-    chromedriver-helper (2.1.1)
-      archive-zip (~> 0.10)
-      nokogiri (~> 1.8)
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
     connection_pool (2.2.2)
@@ -110,7 +93,6 @@ GEM
       websocket
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    io-like (0.3.0)
     jquery-rails (4.3.3)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -173,7 +155,6 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    public_suffix (3.0.3)
     puma (3.12.1)
     rack (2.0.6)
     rack-proxy (0.6.5)
@@ -214,12 +195,7 @@ GEM
       execjs
       railties (>= 3.2)
       tilt
-    regexp_parser (1.3.0)
     ruby_dep (1.5.0)
-    rubyzip (1.2.2)
-    selenium-webdriver (3.141.0)
-      childprocess (~> 0.5)
-      rubyzip (~> 1.2, >= 1.2.2)
     sourcemap (0.1.1)
     sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
@@ -258,16 +234,12 @@ GEM
     websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
-    xpath (3.2.0)
-      nokogiri (~> 1.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   byebug
-  capybara (>= 2.15)
-  chromedriver-helper
   foreman
   hyper-component (= 1.0.alpha1.4)
   hyper-operation (= 1.0.alpha1.4)
@@ -278,8 +250,6 @@ DEPENDENCIES
   opal-rails (~> 0.9.4)
   pry
   puma (~> 3.11)
-  react-rails (>= 2.4.0, < 2.5.0)
-  selenium-webdriver
   webpacker
 
 BUNDLED WITH
